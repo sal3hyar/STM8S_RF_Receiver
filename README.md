@@ -14,5 +14,23 @@ A small project using stm8s mcu to receive &amp; parse ev1527 433Mhz RF-module d
 
 That's it.
 
+# Output
+This is what you should see in serial monitor:
+
+-----------------------------------------------
+Sync-Bit Length = 2648(ticks)
+
+Received Data Frame = 111000000011100000110001
+
+Remote Code = 918403
+
+Pressed Key Name = A
+
+Pressed Key Code = 1
+
+-----------------------------------------------
+
+
+
 # License
 Freeware, No limitation :)
