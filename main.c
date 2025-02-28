@@ -15,7 +15,7 @@ static volatile uint8_t current_edge = 0;
 
 static volatile uint16_t timer_value = 0;
 
-/////////////////////////////////////////////////////////////////// Setup Functions
+/////////////////////////////////////////////////////////////////// Setup
 void EXTI2_Setup(void) {
 	EXTI_DeInit();
 	EXTI_SetExtIntSensitivity(EXTI_PORT_GPIOC, EXTI_SENSITIVITY_RISE_FALL);
