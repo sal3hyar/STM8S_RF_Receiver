@@ -14,5 +14,5 @@ A small project using stm8s mcu to receive &amp; parse ev1527 433Mhz RF-module d
 
 That's it.
 
-# Lisence
+# License
 Feel free to use, distribute, publish it :)
