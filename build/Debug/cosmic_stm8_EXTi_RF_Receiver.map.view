@@ -1,0 +1,3 @@
+tool: COSMIC_STM8
+fileName: cosmic_stm8_EXTi_RF_Receiver.map
+elfName: cosmic_stm8_EXTi_RF_Receiver.sm8

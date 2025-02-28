@@ -1,0 +1,53 @@
+[2025-02-28 13:18:01]	[info] incremental build: 11 source files changed
+These source files will be recompiled
+---
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\main.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\delay.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\serial.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\stm8s_clk.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\stm8s_exti.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\stm8s_flash.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\stm8s_gpio.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\stm8s_itc.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\stm8s_tim2.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\src\stm8s_uart1.c': object (.o) file not exist
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\vector.c': object (.o) file not exist
+
+[2025-02-28 13:18:05]	[done]
+	build successfully !
+
+[2025-02-28 13:26:01]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\main.c': source file has been changed.
+
+[2025-02-28 13:26:01]	[done]
+	build successfully !
+
+[2025-02-28 13:26:36]	[done]
+	build successfully !
+
+[2025-02-28 13:26:44]	[done]
+	build successfully !
+
+[2025-02-28 13:38:02]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\main.c': source file has been changed.
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\vector.c': dependence 'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\inc\main.h' has been changed.
+
+[2025-02-28 13:38:03]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+#error clnk .\build\Debug\stm8.lkf:51 .\build\Debug\.obj\main.o: symbol _KeyCodes multiply defined (.\build\Debug\.obj\vector.o)
+
+
+[2025-02-28 13:38:31]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\main.c': dependence 'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\inc\main.h' has been changed.
+'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\vector.c': dependence 'e:\Documents\PlatformIO\Projects\cosmic_stm8_EXTi_RF_Receiver\inc\main.h' has been changed.
+
+[2025-02-28 13:38:32]	[done]
+	build successfully !
+

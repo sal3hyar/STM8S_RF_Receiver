@@ -1,0 +1,11 @@
+.\build\Debug\.obj\main.o
+.\build\Debug\.obj\src\delay.o
+.\build\Debug\.obj\src\serial.o
+.\build\Debug\.obj\src\stm8s_clk.o
+.\build\Debug\.obj\src\stm8s_exti.o
+.\build\Debug\.obj\src\stm8s_flash.o
+.\build\Debug\.obj\src\stm8s_gpio.o
+.\build\Debug\.obj\src\stm8s_itc.o
+.\build\Debug\.obj\src\stm8s_tim2.o
+.\build\Debug\.obj\src\stm8s_uart1.o
+.\build\Debug\.obj\vector.o

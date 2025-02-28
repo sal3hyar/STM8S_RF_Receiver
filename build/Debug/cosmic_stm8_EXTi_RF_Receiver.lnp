@@ -1,0 +1,1 @@
+-l src -m .\build\Debug\cosmic_stm8_EXTi_RF_Receiver.map -o .\build\Debug\cosmic_stm8_EXTi_RF_Receiver.sm8 .\build\Debug\stm8.lkf

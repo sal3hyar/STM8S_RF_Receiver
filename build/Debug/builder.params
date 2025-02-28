@@ -1,0 +1,90 @@
+{
+    "name": "cosmic_stm8_EXTi_RF_Receiver",
+    "target": "Debug",
+    "toolchain": "COSMIC_STM8",
+    "toolchainLocation": "C:\\Users\\Hosein\\.eide\\tools\\cosmic_stm8",
+    "toolchainCfgFile": "c:\\Users\\Hosein\\.vscode\\extensions\\cl.eide-3.21.1\\res\\data\\models\\win32/stm8.cosmic.model.json",
+    "buildMode": "fast|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 4,
+    "rootDir": "e:\\Documents\\PlatformIO\\Projects\\cosmic_stm8_EXTi_RF_Receiver",
+    "dumpPath": "build\\Debug",
+    "outDir": "build\\Debug",
+    "ram": 1024,
+    "rom": 8192,
+    "incDirs": [
+        "inc",
+        "C:/Users/Hosein/.eide/tools/cosmic_stm8/Hstm8"
+    ],
+    "libDirs": [
+        "src"
+    ],
+    "defines": [],
+    "sourceList": [
+        "main.c",
+        "src/delay.c",
+        "src/serial.c",
+        "src/stm8s_clk.c",
+        "src/stm8s_exti.c",
+        "src/stm8s_flash.c",
+        "src/stm8s_gpio.c",
+        "src/stm8s_itc.c",
+        "src/stm8s_tim2.c",
+        "src/stm8s_uart1.c",
+        "vector.c"
+    ],
+    "sourceParams": {},
+    "options": {
+        "version": 1,
+        "beforeBuildTasks": [],
+        "afterBuildTasks": [],
+        "global": {
+            "model": "small",
+            "output-debug-info": "enable",
+            "output-list-file": true,
+            "cxstm8-config": "\"c:\\Users\\Hosein\\.vscode\\extensions\\cl.eide-3.21.1\\res\\data\\cxstm8.cfg\""
+        },
+        "c/cpp-compiler": {
+            "c99-mode": true,
+            "optimization": "fast",
+            "split-functions": true,
+            "warnings": "all"
+        },
+        "asm-compiler": {
+            "optimization": "fast"
+        },
+        "linker": {
+            "output-format": "elf",
+            "auto-include-stdc-libraries": true,
+            "crts-initialize": "crtsi",
+            "LIB_FLAGS": " crtsif.sm8 libis.sm8 libm.sm8",
+            "linker-script": [
+                "e:\\Documents\\PlatformIO\\Projects\\cosmic_stm8_EXTi_RF_Receiver\\stm8.lkf"
+            ]
+        }
+    },
+    "env": {
+        "workspaceFolder": "e:\\Documents\\PlatformIO\\Projects\\cosmic_stm8_EXTi_RF_Receiver",
+        "workspaceFolderBasename": "cosmic_stm8_EXTi_RF_Receiver",
+        "OutDir": "e:\\Documents\\PlatformIO\\Projects\\cosmic_stm8_EXTi_RF_Receiver\\build\\Debug",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Debug",
+        "ProjectName": "cosmic_stm8_EXTi_RF_Receiver",
+        "ConfigName": "Debug",
+        "ProjectRoot": "e:\\Documents\\PlatformIO\\Projects\\cosmic_stm8_EXTi_RF_Receiver",
+        "ExecutableName": "e:\\Documents\\PlatformIO\\Projects\\cosmic_stm8_EXTi_RF_Receiver\\build\\Debug\\cosmic_stm8_EXTi_RF_Receiver",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\Hosein\\.vscode\\extensions\\cl.eide-3.21.1\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.0.1",
+        "EIDE_MSYS": "C:\\Users\\Hosein\\.eide\\bin\\builder\\msys\\bin",
+        "ToolchainRoot": "C:\\Users\\Hosein\\.eide\\tools\\cosmic_stm8"
+    },
+    "sysPaths": []
+}
