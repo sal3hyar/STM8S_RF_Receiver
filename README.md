@@ -13,3 +13,6 @@ A small project using stm8s mcu to receive &amp; parse ev1527 433Mhz RF-module d
 5-Run a Serial Monitor program to see output
 
 That's it.
+
+# Lisence
+Feel free to use, distribute, publish it :)
