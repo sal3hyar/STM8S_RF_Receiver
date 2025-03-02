@@ -1,6 +1,9 @@
 # STM8S EV1527 RF_Module Receiver
 A small project using stm8s mcu to receive &amp; parse ev1527 433Mhz RF-module data
 
+I used EIDE inside VSCode. Cosmic_stm8 as Compiler and STVP as Flasher
+
+
 # Description
 1-Connect data pin of RF-module to PC3 (Pin No.13)
 
@@ -13,6 +16,7 @@ A small project using stm8s mcu to receive &amp; parse ev1527 433Mhz RF-module d
 5-Run a Serial Monitor program to see output
 
 That's it.
+
 
 # Output
 This is what you should see in serial monitor:
@@ -33,4 +37,4 @@ Pressed Key Code = 1
 
 
 # License
-Freeware, No limitation :)
+Totally free :)
